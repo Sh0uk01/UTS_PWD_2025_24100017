@@ -1,0 +1,142 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #333;
+    background-color: #fff0f5;
+    margin: 0;
+    padding: 0;}
+
+header {
+    background: linear-gradient(to right, #ff69b4, #d04894);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+  
+
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+    animation: bounce 2s;
+}
+  
+  
+@keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-10px);
+    }
+}
+  
+  
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 30px;
+    background-color: white;
+    color: #d04894;
+    font-weight: bold;
+    border-radius: 25px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+  
+
+.btn:hover {
+    background-color: #f8c8dc;
+}
+  
+.search-section {
+    text-align: center;
+    padding: 40px 20px;
+}
+.search-section h2 {
+    margin-bottom: 20px;
+    font-size: 1.8rem;
+}
+  
+.search-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+  
+.search-form input,
+.search-form select,
+.search-form button {
+    padding: 10px;
+    font-size: 1rem;
+    border: none;
+    border-radius: 8px;
+}
+
+.search-form input,
+.search-form select{
+    width: 200px;
+}
+  
+.search-form button {
+    background-color: #d04894;
+    color: white;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+  
+.search-form button:hover {
+    background-color: #ff69b4;
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+    padding: 60px 20px;
+    gap: 30px;
+}
+  
+.feature-box {
+    background-color: white;
+    border-radius: 15px;
+    padding: 30px;
+    max-width: 300px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+  
+.feature-box i {
+    font-size: 2.5rem;
+    color: #d04894;
+    margin-bottom: 15px;
+  }
+  
+  
+.cta {
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #f8c8dc;
+  }
+  
+.cta h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+  
+.cta p {
+    max-width: 600px;
+    margin: 0 auto 30px auto;
+    font-size: 1.1rem;
+}
+  
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #d04894;
+    color: white;
+}
+  
